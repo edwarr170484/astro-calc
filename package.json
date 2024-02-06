@@ -1,0 +1,22 @@
+{
+  "name": "astrology-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "watchcss": "npx tailwindcss -i ./src/css/styles.css -o ./assets/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwarr170484/astro-calc.git"
+  },
+  "author": "Edgar Zhiznevski <edwarr170484@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwarr170484/astro-calc/issues"
+  },
+  "homepage": "https://github.com/edwarr170484/astro-calc#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
