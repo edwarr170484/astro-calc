@@ -1,33 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <link href="assets/css/styles.css" rel="stylesheet">
     <title>Первичный анализ</title>
 </head>
+
 <body>
+    <div class="w-full h-full bg-neutral-200">
+        <div class="container mx-auto pt-5">
+            <div class="bg-white p-5 rounded-md shadow-lg mb-5">
+                <h1 class="text-3xl font-bold pb-3">Первичный анализ</h1>
+                <p>Выбери в каждой строке таблицы нужный знак задиака и результат будет подсчитан
+                    автоматически в колонке
+                    слева</p>
+            </div>
+            <div class="flex flex-row gap-5">
+                <div class="basis-2/3 bg-white p-5 rounded-md shadow-lg">
+                    <table class="table-auto border-collapse w-full border border-slate-400 bg-white text-sm shadow-sm">
+                        <thead class="bg-slate-50 dark:bg-slate-700">
+                            <tr>
+                                <th
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">
+                                    Баллы</th>
+                                <th
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">
+                                    Планета</th>
+                                <th
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">
+                                    Знак зодиака</th>
+                                <th
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">
+                                    Стихия</th>
+                                <th
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">
+                                    Крест</th>
+                                <th
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">
+                                    Фимитив</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="basis-1/3 bg-white p-5 rounded-md shadow-lg">
+                    <table class="table-auto border-collapse w-full border border-slate-400 bg-white text-sm shadow-sm">
+                        <tbody>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Огонь</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Земля</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Воздух</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Вода</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Кардинальный</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Мутабельный</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Фиксированный</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Мужской</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Женский</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Рациональность</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Эмоциональность</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Kоммуникативность</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                    Cамодостаточность</td>
+                                <td
+                                    class="border border-slate-300 dark:border-slate-600 font-semibold p-2 text-slate-900 dark:text-slate-200 text-left">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-8">
-                    <table class="table" id="main-table">
-                        <thead>
-                            <tr>
-                                <th>Баллы</th>
-                                <th>Планета</th>
-                                <th>Знак зодиака</th>
-                                <th>Стихия</th>
-                                <th>Крест</th>
-                                <th>Фимитив</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
                 <div class="col-4">
                     <h2>Результаты</h2>
                     <div id="elements-result"></div>
@@ -38,5 +178,7 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
