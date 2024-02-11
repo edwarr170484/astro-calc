@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "watchcss": "npx tailwindcss -i ./src/css/styles.css -o ./assets/css/styles.css --watch"
+    "watchcss": "npx tailwindcss -i ./src/css/styles.css -o ./assets/css/styles.css --watch",
+    "watchts": "npx tsc ./src/ts/main.ts --outFile ./assets/js/main.js --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/edwarr170484/astro-calc#readme",
   "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   }
 }
